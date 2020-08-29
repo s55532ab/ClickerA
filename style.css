@@ -1,0 +1,80 @@
+h3{
+    width: 180px;
+    text-align: center;
+    margin: 4px;
+}
+#left{
+    margin : 0 auto;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #00aaff;
+    box-shadow: 0 4px 0 #0088cc;
+text-align: center;
+    color: white;
+font-weight: bold;
+    cursor: pointer;
+}
+#left:hover {
+    opacity: 0.8;
+}
+#left.pushed {
+    margin-top: 10px;
+    box-shadow: 0 2px 0 #0088cc;
+}
+#right{
+    margin : 0 auto;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background: red;
+    box-shadow: 0 4px 0 #CC3300;
+text-align: center;
+    color: white;
+font-weight: bold;
+    cursor: pointer;
+}
+#right:hover {
+    opacity: 0.8;
+}
+#right.pushed {
+    margin-top: 10px;
+    box-shadow: 0 2px 0 #CC3300;
+}
+#hissatuwaza{
+    color:green;
+    display: block;
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+    border: 1px solid #000000
+}
+#eneImg{
+    cursor: pointer;
+    margin : 0 auto;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #222222;
+    box-shadow: 0 4px 0 #111111; 
+    
+}
+
+#eneImg.pushed {
+    
+    margin-top: 10px;
+    box-shadow: 0 2px 0 white ;
+}
+#plyImg{
+    cursor: pointer;
+    margin : 0 auto;
+    width: 160px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #00aaff;
+    box-shadow: 0 4px 0 #0088cc; 
+}
+#plyImg.pushed {
+    margin-top: 10px;
+    box-shadow: 0 2px 0 white ;
+}
